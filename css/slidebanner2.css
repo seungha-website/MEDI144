@@ -1,0 +1,51 @@
+*{margin:0; padding:0;}
+
+/* 슬라이드배너 꾸미기 */
+.slide2 { 
+	width: 1620PX; 
+	height:800px;
+	box-sizing: border-box;
+	position: relative;
+	overflow: hidden;
+	margin: 50px auto 100px;
+	box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.3);
+	z-index: -9;
+}
+.slide2 .swiper-slide {
+	text-align: center; 
+	font-size: 18px; 
+}
+.slide2 .swiper-slide img{
+	display: block; 
+}
+
+/*블릿버튼 영역*/
+.slide2 .swiper-pagination-bullet{background:#f6d393; width:20px; height:20px; opacity:0.5;}/* 블릿버튼 크기, 색상, 투명도 */
+.slide2 .swiper-pagination-bullet-active{opacity:1;} /* 블릿버튼 페이지 표시날 때 투명도 */
+.swiper-container-vertical > .swiper-pagination-bullets{right:100px; margin-bottom: 50px;}/* 블릿버튼 위치 */
+.swiper-pagination{ margin-right: 70px;}
+
+
+@media (max-width: 1440px){
+	.slide2 { 
+		scale: 0.9;
+		margin: -30px 0 0 -80px;
+	}
+}
+
+@media (max-width: 1024px){
+	.slide2 { 
+		scale: 0.64;
+		margin: -100px 0 -100px -295px;
+	}
+}
+@media (max-width: 768px){
+	.slide2 { 
+		scale: 0.48;
+		margin: -148px 0 -170px -430px;
+	}
+}
+
+@media (max-width: 425px){
+ .slide2 { display: none;}
+}

@@ -1,0 +1,41 @@
+*{margin:0; padding:0;}
+ul{list-style:none;}
+.scroll-title{
+    text-align: center;
+	padding:20px 0;
+    
+}
+.scroll-menu{
+    text-align: center;
+    background-color: #14ada0;
+    padding: 10px 0px;
+    width: 100%;
+    
+}
+.scroll-menu ul{
+	width:400px;
+	margin:auto;
+	display:flex;
+	justify-content:space-between;
+    
+}
+.scroll-content{
+    height: 2000px;
+}
+
+/* 스크롤을 내리면 .scroll-menu에 .scroll-fixed가 생겨남 */
+/* scroll-fixed가 생길 때 꾸며주기 */
+.scroll-fixed{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    padding: 20px 0;
+    background-color: #0a534d;
+    transition: all 1s;
+    
+}
+.scroll-fixed a{
+    color: #fff;
+    transition: all 1s;
+    
+}
