@@ -369,8 +369,8 @@ thead {
 }
 
 .footer_inner h1 {
-    width: 195px;
-    height: 72px;
+    width: 119px;
+    height: 62px;
     background: url(../main_img/Logo.png);
     background-size: cover;
     margin: auto;
@@ -405,6 +405,7 @@ footer .copy {
     background: #30aae1;
     border-radius: 2px;
     color: oldlace;
+    
 }
 
 .footer_inner .right {
