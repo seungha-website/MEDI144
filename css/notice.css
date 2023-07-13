@@ -369,9 +369,9 @@ thead {
 }
 
 .footer_inner h1 {
-    width: 119px;
-    height: 62px;
-    background: url(../main_img/Logo.png);
+    width: 169px;
+    height: 66px;
+    background: url(../main_img/header_logo.png);
     background-size: cover;
     margin: auto;
 }
